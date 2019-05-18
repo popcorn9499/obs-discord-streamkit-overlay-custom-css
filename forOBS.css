@@ -1,0 +1,20 @@
+body {
+  overflow: hidden
+}
+.chat-container .channel-name {
+    visibility: hidden
+}
+.chat-container .channel-name .pound-sign {
+    visibility: hidden
+}
+.chat-container .messages {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 577px;
+    height: 162px;
+    padding: 0px 0px
+}
+.chat-container .messages .message {
+    background:rgba(0,0,0,0.8)
+}
